@@ -30,7 +30,7 @@
         .video-contain{
             position:absolute;
             width:80%;
-            bottom: -200px;
+            bottom: -300px;
             left: 50%;
             transform: translateX(-50%);
         }
@@ -62,7 +62,7 @@
         gap:90px;
     }
     .featured-section img{
-        width:40vh;
+        width:60vh;
     }
     .featured-last-text{
         width:50vh;
@@ -153,8 +153,7 @@
         font-size:30px;
     }
     .featured-section-img{
-        margin-left:50px;
-        width:50%;
+        margin-left:25px;
     }
    
     .featured-last-text{
