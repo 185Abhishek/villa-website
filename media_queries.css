@@ -59,10 +59,13 @@
     .featured-section{
         display:flex;
         flex-wrap:wrap;
-        gap:90px;
+        gap:40px;
+    }
+    .featured-section-img{
+        width:30%;
     }
     .featured-section img{
-        width:60vh;
+        width:100%;
     }
     .featured-last-text{
         width:50vh;
@@ -152,9 +155,10 @@
     .hero-content h1{
         font-size:30px;
     }
-    .featured-section-img{
-        margin-left:25px;
-    }
+   .featured-section-img{
+    width:80%;
+    margin-left:20px;
+   }
    
     .featured-last-text{
         width:80vh;
