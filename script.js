@@ -1,7 +1,6 @@
-// JavaScript to toggle the navbar
-const toggle = document.querySelector(".toggle");
-const navLinks = document.querySelector(".nav-links");
+const toggleButton = document.getElementById('toggleButton');
+const navLinks = document.getElementById('navLinks');
 
-toggle.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
+toggleButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
 });
