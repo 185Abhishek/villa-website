@@ -91,6 +91,9 @@
     margin-top:20px;
     //margin: 0;
 }
+#click{
+    display:none;
+}
 
 
 .nav-links a {
